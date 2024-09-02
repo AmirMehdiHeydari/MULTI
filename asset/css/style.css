@@ -18,13 +18,13 @@ body{
 /* start header  */
 header{
     min-height: 150vh;
-    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(amir-1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(../image/amir-1.jpg);
 }
 /* end header */
 
 /* start video */
 .bg-video{
-    background-image: url(amir-3.jpg);
+    background-image: url(../image/amir-3.jpg);
     background-size: cover;
     background-position: center;
 }

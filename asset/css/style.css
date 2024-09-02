@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(236, 236, 236) !important;
+    height: 5000px;
+}
+.my-line{
+    width: 100px;
+    height: 1px; 
+}
+.bg-light-blue{
+    background-color: #f6f9fd;
+}
+.text-dark-blue{
+    color: #0f2f57;
+}
+.bg-dark-blue{
+    color: #071527;
+}
+/* start header  */
+header{
+    min-height: 150vh;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(amir-1.jpg);
+}
+/* end header */
+
+/* start video */
+.bg-video{
+    background-image: url(amir-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*end video */
+
+/*start services */
+.service-icon-box{
+    width: 60px;
+    height: 60px;
+    box-shadow: -7px -7px rgba(255, 0, 0, 0.253);
+}
+.service-item:hover{
+    background-color: #dc3545!important;
+    color: white!important;
+
+}
+.service-item:hover .service-icon-box{
+    background-color: white!important;
+    color: #dc3545!important;
+}
+.service-item:hover p{
+    color: white!important;
+}
+
+/*end services */
+
+/*start testimonials */
+.slider-img{
+    top: 15px;
+    left: -35px;
+}
+.my-btn-slider{
+    width: 10px!important;
+    height: 10px!important;
+    background-color: white!important;
+    border-radius: 50%;
+    border: 1px solid #dc3545!important;
+}
+.my-btn-slider.active{
+background-color: #dc3545!important;
+}
+.carousel-indicators{
+    bottom: -15px!important;
+}
+/*end testimonials */
+
+/*start portfolio */
+.portfolio-item-hover{
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.903);
+    transition-duration: 0.3s;
+
+}
+.portfolio-item:hover .portfolio-item-hover{
+    top: 75%;
+
+}
+/*end portfolio * /
+
+/* start team */
+.team-item-hover1{
+    top: 0;
+    left: -18%;
+    height: 100%;
+    width: 18%;
+    background-color: rgb(11, 35, 65,0.5);
+    transition-duration: 0.3s;
+    z-index: 5;
+}
+.team-item-hover2{
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent,rgb(11, 35, 65,0.8))
+        
+}
+.team-item:hover .team-item-hover1{
+    left: 0;
+}
+.team-item:hover .team-item-hover2{
+    top: 0;
+}
+/* end team */
+
+/* start contact */
+.contact-icon-box{
+    width: 60px;
+    height: 60px;
+    border: 2px dashed #dc3545;
+}
+
+/* end contact */
+
+/* start footer */
+.footer-multi{
+    border-top: 5px solid #dc3545;
+    background-color: #05101e;
+}
+.footer-icons a{
+    width: 37px;
+    height: 37px;
+}
+.footer-icons a:hover{
+    background-color: #dc3545!important;
+}
+/* end footer */
